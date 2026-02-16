@@ -7,7 +7,7 @@ repository = "https://thunderstore.io"
 [package]
 namespace = "darmuh"
 name = "ContractSaveFix"
-description = "Simple bugfix mod that ensures Contacts are properly loaded from game saves."
+description = "Simple bugfix mod that ensures Contracts are properly loaded from game saves."
 websiteUrl = ""
 containsNsfwContent = false
 
