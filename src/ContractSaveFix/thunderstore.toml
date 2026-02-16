@@ -8,7 +8,7 @@ repository = "https://thunderstore.io"
 namespace = "darmuh"
 name = "ContractSaveFix"
 description = "Simple bugfix mod that ensures Contracts are properly loaded from game saves."
-websiteUrl = ""
+websiteUrl = "https://github.com/darmuh/ContractSaveFix"
 containsNsfwContent = false
 
 [package.dependencies]
@@ -41,4 +41,4 @@ communities = [ "yapyap", ]
 [publish.categories]
 # See categories at:
 # https://thunderstore.io/api/experimental/community/yapyap/category/
-yapyap = [ "mods", ]
+yapyap = [ "mods", "qol", "host", "misc", ]
