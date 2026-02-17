@@ -1,4 +1,9 @@
 # Changelog  
 
+## 1.0.1
+ - Fixed compatibility with mods that rely on the DugeonTasks instance being assigned at Awake. (ContractQueen)
+	- Changed patching to be much less aggresive in what it changes, only skipping DungeonTasks.CreateTasks when it has been called too early.
+ - Added license
+
 ## 1.0.0  
  - Initial mod upload, I don't expect to have to update this ever again.  
