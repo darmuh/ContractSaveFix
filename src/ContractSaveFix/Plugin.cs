@@ -17,7 +17,7 @@ namespace ContractSaveFix
         {
             Log = Logger;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-            Log.LogInfo($"Plugin {Name} is loaded, fixing your contracts!");
+            Log.LogInfo($"Plugin {Name} is loaded, fixing your contracts!!!");
         }
 
         [HarmonyPatch(typeof(DungeonTasks), nameof(DungeonTasks.Awake))]

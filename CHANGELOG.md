@@ -1,5 +1,8 @@
 # Changelog  
 
+## 1.0.2
+ - packaging correct dll, 1.0.1 was a repackage of 1.0.0
+
 ## 1.0.1
  - Fixed compatibility with mods that rely on the DugeonTasks instance being assigned at Awake. (ContractQueen)
 	- Changed patching to be much less aggresive in what it changes, only skipping DungeonTasks.CreateTasks when it has been called too early.
