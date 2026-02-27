@@ -17,10 +17,10 @@ namespace ContractSaveFix
         {
             Log = Logger;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-            Log.LogInfo($"Plugin {Name} is loaded, fixing your contracts!!!");
+            Log.LogInfo($"Plugin {Name} is loaded, fixing your contracts! For real!");
         }
 
-        [HarmonyPatch(typeof(DungeonTasks), nameof(DungeonTasks.Awake))]
+        [HarmonyPatch(typeof(DungeonTasks), nameof(DungeonTasks.PreAwake))]
         internal class DungeonTasksAwakeHook
         {
             public static void Prefix(DungeonTasks __instance)
